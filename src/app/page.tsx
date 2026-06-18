@@ -43,7 +43,7 @@ export default function Home() {
 
   return (
     <SmoothScroll>
-      <div className="relative min-h-screen lg:h-screen lg:overflow-hidden bg-bg-dark text-foreground flex flex-col justify-between select-none pb-20 lg:pb-0">
+      <div className="relative min-h-screen lg:h-screen lg:overflow-hidden bg-bg-dark text-foreground flex flex-col justify-between select-none pb-[72px] lg:pb-0">
         
         {/* Background 3D Interactive wave grid */}
         <HeroThree />
@@ -59,7 +59,7 @@ export default function Home() {
         <div className="absolute bottom-[30%] right-[10%] w-[400px] h-[400px] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none animate-blob-2" />
 
         {/* Main Content Workspace Layout */}
-        <div className="relative max-w-7xl lg:max-w-[1400px] w-full mx-auto px-4 md:px-8 py-8 lg:py-6 flex flex-col lg:flex-row gap-6 lg:gap-8 lg:items-stretch z-10 flex-grow lg:h-0 lg:min-h-0">
+        <div className="relative max-w-7xl lg:max-w-[1400px] w-full mx-auto px-4 md:px-8 pt-4 pb-0 lg:py-6 flex flex-col lg:flex-row gap-6 lg:gap-8 lg:items-stretch z-10 flex-grow lg:h-0 lg:min-h-0">
           
           {/* Left Side: Dynamic Profile Sidebar */}
           <Sidebar />
@@ -98,7 +98,7 @@ export default function Home() {
             </nav>
 
             {/* Active Content panel viewport */}
-            <main className="glass-card p-6 md:p-8 lg:p-10 lg:pt-20 rounded-3xl min-h-[460px] bg-[#1e1e1f]/85 backdrop-blur-sm lg:h-full lg:flex-grow lg:overflow-y-auto card-scrollbar">
+            <main className="glass-card p-6 md:p-8 lg:p-10 lg:pt-20 rounded-3xl min-h-0 lg:min-h-[460px] bg-[#1e1e1f]/85 backdrop-blur-sm lg:h-full lg:flex-grow lg:overflow-y-auto card-scrollbar">
               <div className="scroll-content-wrapper w-full">
                 <AnimatePresence mode="wait">
                   <motion.div
