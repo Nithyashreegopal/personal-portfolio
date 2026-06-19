@@ -39,9 +39,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${poppins.variable} h-full w-full overflow-x-hidden antialiased dark lg:overflow-hidden`}
+      className={`${poppins.variable} lg:h-full w-full overflow-x-hidden antialiased dark lg:overflow-hidden`}
     >
-      <body className="min-h-full w-full overflow-x-hidden flex flex-col font-sans bg-bg-dark text-foreground selection:bg-gold-400 selection:text-bg-dark lg:overflow-hidden">
+      <body className="lg:min-h-full w-full overflow-x-hidden flex flex-col font-sans bg-bg-dark text-foreground selection:bg-gold-400 selection:text-bg-dark lg:overflow-hidden">
         {children}
       </body>
     </html>
