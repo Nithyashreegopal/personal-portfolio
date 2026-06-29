@@ -202,6 +202,20 @@ export default function Projects() {
       ],
       githubLink: "https://github.com/Nithyashreegopal/NoteVault",
     },
+    {
+      title: "PressMart - E-Commerce Platform",
+      category: "Web Development",
+      icon: <Map className="text-gold-300" size={20} />,
+      color: "gold-300",
+      tags: ["Python", "Flask", "MySQL", "JavaScript", "HTML", "CSS"],
+      features: [
+        "Built a full-featured e-commerce platform with product catalog, shopping cart, and checkout system.",
+        "Developed comprehensive admin panel for managing products, banners, promotions, and blog content.",
+        "Implemented RESTful API endpoints for products, orders, banners, promos, and blog posts.",
+        "Integrated payment processing, user profiles, wishlists, and order management functionality.",
+      ],
+      githubLink: "https://github.com/Nithyashreegopal/e-commerce",
+    },
   ];
 
   // Filter projects list dynamically

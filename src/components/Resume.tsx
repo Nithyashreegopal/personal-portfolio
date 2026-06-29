@@ -34,8 +34,12 @@ export default function Resume() {
   ];
 
   const achievementTimeline: TimelineItem[] = [
-    {
-      year: "2025",
+    {      year: "2026",
+      title: "Internsala Student Partner",
+      subtitle: "Partnership & Recognition",
+      description: "Recognized as a Student Partner with Internsala, contributing to internship and opportunities community for students.",
+    },
+    {      year: "2025",
       title: "Gencraft’25 Technical Event - 3rd Prize",
       subtitle: "Academic Competition",
       description: "Recognized for prototyping technical innovations and presenting under pressure in a regional collegiate hackathon/event.",
